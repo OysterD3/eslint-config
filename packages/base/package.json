@@ -1,0 +1,22 @@
+{
+  "name": "@oysterlee/eslint-config-base",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Oyster Lee <oysterd3@gmail.com> (https://linktr.ee/OysterD3)",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}

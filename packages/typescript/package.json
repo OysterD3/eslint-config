@@ -1,0 +1,21 @@
+{
+  "name": "@oysterlee/eslint-config-ts",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Oyster Lee <oysterd3@gmail.com> (https://linktr.ee/OysterD3)",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "dependencies": {
+    "@oysterlee/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0"
+  }
+}
