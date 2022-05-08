@@ -1,6 +1,5 @@
 {
   "name": "@oysterlee/eslint-config-monorepo",
-  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +19,6 @@
     "extends": [
       "@oysterlee/eslint-config"
     ]
-  }
+  },
+  "version": "0.1.0"
 }
