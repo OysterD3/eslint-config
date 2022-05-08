@@ -1,6 +1,6 @@
 {
   "name": "@oysterlee/eslint-config-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Oyster Lee <oysterd3@gmail.com> (https://linktr.ee/OysterD3)",
   "main": "index.js",
