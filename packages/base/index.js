@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    "cypress/globals": true,
     es6: true,
     browser: true,
     node: true,
@@ -8,6 +9,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 2022,
+    sourceType: "module",
   },
   plugins: ["cypress", "prettier"],
   extends: [
