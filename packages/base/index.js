@@ -12,13 +12,13 @@ module.exports = {
     ecmaVersion: 2022,
     sourceType: "module",
   },
-  plugins: ["cypress", "prettier"],
-  extends: [
-    "eslint:recommended",
-    "plugin:import/recommended",
-    "plugin:cypress/recommended",
-    "prettier",
-  ],
+  settings: {
+    "import/resolver": {
+      node: { extensions: [".js", ".mjs"] },
+    },
+  },
+  plugins: ["cypress", "import", "prettier"],
+  extends: ["eslint:recommended", "plugin:cypress/recommended", "prettier"],
   rules: {
     "prettier/prettier": [
       "error",
@@ -29,5 +29,10 @@ module.exports = {
         arrowParents: "always",
       },
     ],
+    "import/order": "error",
+    "import/first": "error",
+    "import/no-mutable-exports": "error",
+    "import/no-unresolved": "off",
+    "import/no-absolute-path": "off",
   },
 };
