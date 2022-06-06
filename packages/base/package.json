@@ -1,6 +1,6 @@
 {
   "name": "@oysterlee/eslint-config-base",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "author": "Oyster Lee <oysterd3@gmail.com> (https://linktr.ee/OysterD3)",
   "main": "index.js",
