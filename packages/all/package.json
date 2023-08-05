@@ -1,12 +1,12 @@
 {
   "name": "@oysterlee/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "author": "Oyster Lee <oysterd3@gmail.com> (https://linktr.ee/OysterD3)",
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=8",
-    "prettier": ">=2.6"
+    "prettier": ">=3"
   },
   "publishConfig": {
     "access": "public"
