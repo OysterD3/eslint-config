@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    "cypress/globals": true,
+    'cypress/globals': true,
     es6: true,
     browser: true,
     node: true,
@@ -10,29 +10,29 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 2022,
-    sourceType: "module",
+    sourceType: 'module',
   },
   settings: {
-    "import/resolver": {
-      node: { extensions: [".js", ".mjs"] },
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] },
     },
   },
-  plugins: ["cypress", "import", "prettier"],
-  extends: ["eslint:recommended", "plugin:cypress/recommended", "prettier"],
+  plugins: ['cypress', 'import', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:cypress/recommended', 'prettier'],
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         semi: true,
-        trailingComma: "all",
-        singleQuote: false,
-        arrowParents: "always",
+        trailingComma: 'all',
+        singleQuote: true,
+        arrowParents: 'always',
       },
     ],
-    "import/order": "error",
-    "import/first": "error",
-    "import/no-mutable-exports": "error",
-    "import/no-unresolved": "off",
-    "import/no-absolute-path": "off",
+    'import/order': 'error',
+    'import/first': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/no-unresolved': 'off',
+    'import/no-absolute-path': 'off',
   },
 };
